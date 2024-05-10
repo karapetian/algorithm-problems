@@ -6,7 +6,7 @@ public class Test {
         int [] testArray = new int[] {2, 4, 6, 3, 1, 3, 5};
         int target = 7;
 
-        System.out.println(Solution.subarraySum(testArray, target));
+        System.out.println(Solution.subarraySum2(testArray, target));
 
         System.out.println(Solution.subarraySum(testArray, 5));
 

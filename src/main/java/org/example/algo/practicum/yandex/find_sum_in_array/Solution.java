@@ -6,6 +6,7 @@ import java.lang.reflect.Array;
 // что сумма его элементов равна X.
 public class Solution {
 
+    // O(n^2) complexity
     public static boolean subarraySum(int[] array, int target) {
         int leftIndex = 0;
         int rightIndex = 0;
@@ -32,9 +33,11 @@ public class Solution {
     }
 
 
+    // O(n) complexity
     public static boolean subarraySum2(int[] nonNegativeArr, int target) {
         int right = 0;
         int currentSum = 0;
+
         for (int left = 0; left < nonNegativeArr.length; left++) {
             // Recalculate the sum
             if (left > 0) {
