@@ -1,7 +1,5 @@
 package org.example.algo.practicum.yandex.find_sum_in_array;
 
-import java.lang.reflect.Array;
-
 //Определите, существует ли в массиве (with non_negative elements) такой непрерывный подмассив,
 // что сумма его элементов равна X.
 public class Solution {
