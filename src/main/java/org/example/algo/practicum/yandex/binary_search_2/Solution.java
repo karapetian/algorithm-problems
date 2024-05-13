@@ -14,7 +14,7 @@ public class Solution {
         int endIndx = arr.length - 1;
         int mid = (arr.length - 1) / 2;
 
-        while (startIndx < endIndx) {
+        while (startIndx +1 < endIndx) {   // startIndx + 1 !!!
             if (endIndx - startIndx == 1) { // When startIndx and endIndx are next to each other
                 break;
             }
@@ -25,9 +25,9 @@ public class Solution {
                 startIndx = mid;
                 mid = (startIndx + endIndx) / 2;
             }
-            if (arr[startIndx] == 0 && arr[endIndx] == 1 && endIndx - startIndx == 1) { // When startIndx and endIndx are next to each other
-                break;
-            }
+//            if (arr[startIndx] == 0 && arr[endIndx] == 1 && endIndx - startIndx == 1) { // When startIndx and endIndx are next to each other
+//                break;
+//            }
         }
 
         return new ImmutablePair<>(startIndx, endIndx);
