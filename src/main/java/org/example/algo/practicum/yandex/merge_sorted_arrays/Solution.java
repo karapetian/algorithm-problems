@@ -4,7 +4,7 @@ package org.example.algo.practicum.yandex.merge_sorted_arrays;
 // O(n+m)
 public class Solution {
 
-    static int[] merge(int[] input1, int[] input2) {
+    public static int[] merge(int[] input1, int[] input2) {
         int resultLenght = input1.length + input2.length;
         int[] result = new int[resultLenght];
 
