@@ -3,6 +3,7 @@ package org.example.algo.practicum.yandex.tree_LayeredRepresentation;
 import java.util.List;
 
 import static org.example.algo.practicum.yandex.tree_LayeredRepresentation.Solution.getLayeredRepresentation;
+import static org.example.algo.practicum.yandex.tree_LayeredRepresentation.Solution.levelOrderTraversal;
 
 public class Test {
 
@@ -17,5 +18,8 @@ public class Test {
         List<List<Integer>> layeredRepresentation = getLayeredRepresentation(root);
         //[[1], [2, 3], [4, 5]]
         System.out.println(layeredRepresentation);
+
+        //[[1], [2, 3], [4, 5]]
+        System.out.println(levelOrderTraversal(root));
     }
 }
