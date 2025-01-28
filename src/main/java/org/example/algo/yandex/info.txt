@@ -1,0 +1,25 @@
+https://yfd-events.com/multitrack-0225?utm_source=tg&utm_medium=cpc&utm_campaign=wo_multitrack_0225&utm_content=javaproglib#whyMultitrack
+https://yandex.ru/jobs/pages/dev_interview
+
+
+HR -  motivation, experience, interests, wish to move to a new company, expectations from the new company
+Describe a complex technical challenge you encountered in one of your previous projects. How did you approach it, and what was the outcome
+
+
+https://github.com/krishnadey30/LeetCode-Questions-CompanyWise/blob/master/yandex_alltime.csv
+https://github.com/krishnadey30/LeetCode-Questions-CompanyWise/blob/master/yandex_6months.csv
+-----------------------------------------------------------------------------------------------------------------------
+-There is a binary tree where each node contains left child, right child and parent node information. Find common ancestor for 2 nodes.
+-There is a sorted array. Find the index of first and last symbol appearance
+-There is an array of integers. Find the longest chain of decreasing or increasing elements.
+-Find if string a contains string b as palindrome
+-A list of unsorted and duplicated numbers is given. It is necessary to output a list of maximum length consecutive numbers
+(with a difference of 1, e.g. list 4, 5, 6) without using sorting.
+-Check if two binary tree is equals
+-Revert a binary tree in a set amount of time.
+- reverse the linked list
+- Write a code to reverse a double-linked list.
+-finding the lowest common ancestor of vertices in a binary tree, where you have links to left node, right node, and parent node
+-Find 3 largest numbers in an array. O(n) Time Complexity
+
+
