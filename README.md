@@ -1,7 +1,7 @@
 # algorithm-problems
 Algorithm Problems with Solutions
 
-1. 2-3 pointers
+1. 2-3 pointers: с двух сторон; Каждому массиву по указателю; Медленый и быстрый указатели(поменять местами или сравнить)
 2. binary search - classic problem: Есть упорядоченный массив целых чисел arr, нужно определить, есть ли в нём число X.
 В общем и худшем случае интервал поиска на каждом шаге алгоритма будет сокращаться в два раза. Изначально он равен 𝑁 N, 
 после одной итерации он будет содержать 𝑁 / 2 N/2 элементов, затем 𝑁 / 4 N/4, на 𝑘 k-й итерации в нём будет 𝑁 / 2 𝑘 N/2 k элементов. 
@@ -25,4 +25,7 @@ backtrack to A and choose the second path to the node C. We repeat the process u
 10. In most cases, we can also use DFS when using BFS. But there is an important difference: the traversal order. 
 Different from BFS, the nodes you visit earlier might not be the nodes which are closer to the root node. As a result, 
 the first path you found in DFS might not be the shortest path.
-11. 
+11. Counting Sort - Time O(n+k) and Space O(n+k); efficient when the range of input values is small compared to the number
+of elements to be sorted. The basic idea behind Counting Sort is to count the frequency of each distinct element in the 
+input array and use that information to place the elements in their correct sorted positions.
+12. 
