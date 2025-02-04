@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Cannot find in LeetCode
+
+//2.Or we can keep one HaspMap and add the elements of one of the arrays and check with contains() by another array.
+//but in this case we wont use the fact that the arrays are sorted.
 public class Solution {
 
     static List<Integer> findIntersectionValues(int[] nums1, int[] nums2) {
