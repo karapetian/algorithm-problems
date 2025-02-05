@@ -2,8 +2,6 @@ package org.example.algo.yandex.move_zeroes;
 
 import java.util.Arrays;
 
-import static org.example.algo.yandex.move_zeroes.Solution.moveZeroes;
-import static org.example.algo.yandex.move_zeroes.Solution.moveZeroes2;
 import static org.example.algo.yandex.move_zeroes.Solution.moveZeroes3;
 
 public class Test {
