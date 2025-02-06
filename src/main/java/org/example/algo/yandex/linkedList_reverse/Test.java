@@ -1,6 +1,6 @@
-package org.example.algo.yandex.reverse_linkedList;
+package org.example.algo.yandex.linkedList_reverse;
 
-import static org.example.algo.yandex.reverse_linkedList.Solution.reverseList;
+import static org.example.algo.yandex.linkedList_reverse.Solution.reverseList;
 
 public class Test {
 
