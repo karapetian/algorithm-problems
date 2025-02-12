@@ -4,6 +4,7 @@ package org.example.algo.practicum.yandex.binary_search_3;
 // Если такого элемента не существует, вернуть -1.
 public class Solution {
 
+    //{0, 2, 4, 5, 6, 11}
     static int binarySearchMaxClosestElement(int[] arr, final int target) {
         int startIndx = 0;
         int endIndx = arr.length - 1;
