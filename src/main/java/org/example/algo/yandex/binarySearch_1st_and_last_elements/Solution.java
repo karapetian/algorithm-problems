@@ -3,6 +3,7 @@ package org.example.algo.yandex.binarySearch_1st_and_last_elements;
 //34. Find First and Last Position of Element in Sorted Array
 public class Solution {
 
+    //поиск последнего вхождения
     static int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {
             return new int[]{-1, -1};
