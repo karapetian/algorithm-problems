@@ -21,7 +21,7 @@ Dynamic prog
 Поэтому при решении нужно понять, что требуется сначала отсортировать данные, а затем применить один из указанных методов.
 6. деревья — частный случай графов
 7. Trie data structure: https://www.geeksforgeeks.org/trie-insert-and-search/
-8. We use Queue for BFS and Stack for DFS. In the first round, we process the root node. In the second round, we 
+8. We use **Queue for BFS** and **Stack for DFS**. In the first round, we process the root node. In the second round, we 
 poll (returns and removes the element) the root and process the nodes next to the root node. In the third round, we 
 process the nodes which are two steps from the root node, e.i poll from to find the nodes next to it. So on and so forth.
 It is important to make sure that we never visit a node twice. Otherwise, we might get stuck in an infinite loop, e.g. in graph with cycle.
@@ -34,7 +34,21 @@ Different from BFS, the nodes you visit earlier might not be the nodes which are
 the first path you found in DFS might not be the shortest path.
 11. Counting Sort - Time O(n+k) and Space O(n+k); efficient when the range of input values is small compared to the number
 of elements to be sorted. The basic idea behind Counting Sort is to count the frequency of each distinct element in the 
-input array and use that information to place the elements in their correct sorted positions.
+input array and use that information to place the elements in their correct sorted positions. The Range should be smaller
+than the number of elements
 12. https://almond-city-dee.notion.site/195f64241af0809bb6f9f76b85c328e1
     https://www.youtube.com/watch?v=6h-blOjL43s
 13. https://t.me/book_cube/3103![Screenshot 
+14. HEAP - Kth largest element; top K frequent element;
+15. HashTable - Anagrams
+16. Sorting - use O(n2) only when you have O(1) place complexity
+17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.
+Recursively look at the left part, add them into the results. Recursively look at the left part, and go back to the Root.
+
+https://www.linkedin.com/feed/update/urn:li:activity:7294626255029600257/
+
+https://almond-city-dee.notion.site/195f64241af0809bb6f9f76b85c328e1
+
+
+
+https://www.linkedin.com/posts/ankitapy_dsa-leetcode-interview-activity-7298578598326677504-iL9e?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5CJqwBXQwpcP8dFhZwCWAJx3-8YrTh96I
