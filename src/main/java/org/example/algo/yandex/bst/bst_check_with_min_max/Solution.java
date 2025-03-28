@@ -6,7 +6,7 @@ import org.example.algo.yandex.bst.TreeNode;
 //check that each node is between min and max
 public class Solution {
 
-    public boolean validateTreeLeaves(TreeNode root, int max, int min) {
+    public static boolean validateTreeLeaves(TreeNode root, int max, int min) {
         if (root == null) {
             return false;
         }
@@ -17,7 +17,7 @@ public class Solution {
         return (min <= left) && (max >= right);
     }
 
-    private int getLeftMostValue(TreeNode root) {
+    private static int getLeftMostValue(TreeNode root) {
         TreeNode current = root;
         while (current.left != null) {
             current = current.left;
@@ -25,12 +25,11 @@ public class Solution {
         return current.val;
     }
 
-    private int getRightMostValue(TreeNode root) {
+    private static int getRightMostValue(TreeNode root) {
         TreeNode current = root;
         while (current.right != null) {
             current = current.right;
         }
         return current.val;
     }
-
 }
