@@ -1,5 +1,7 @@
 package org.example.algo.yandex.bst;
 
+//Almost everywhere space complexity is O(h) because of recursion
+//and the Time complexity is O(n)
 public class TreeNode {
 
     public Integer val;
