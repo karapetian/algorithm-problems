@@ -2,7 +2,7 @@ package org.example.algo.yandex.bst.bst_check_with_min_max;
 
 import org.example.algo.yandex.bst.TreeNode;
 
-//Given the root of the BST and min and max valoues.
+//Given the root of the BST and min and max values.
 //check that each node is between min and max
 public class Solution {
 
