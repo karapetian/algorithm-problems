@@ -8,10 +8,12 @@ import java.util.PriorityQueue;
 // If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.
 //even number of elements: [1, 3, 5, 7] → Median = (3 + 5) / 2 = 4
 //odd number of elements: [1, 3, 5] → Median = 3
+//Both heaps have equal size (if k is even).
+//The max-heap has 1 more element than the min-heap (if k is odd).
 public class MedianFinder {
 
-    private PriorityQueue<Integer> small = new PriorityQueue<>(Collections.reverseOrder());
-    private PriorityQueue<Integer> large = new PriorityQueue<>();
+    private PriorityQueue<Integer> small = new PriorityQueue<>(Collections.reverseOrder()); //minheap
+    private PriorityQueue<Integer> large = new PriorityQueue<>(); //maxheap
     private boolean isEven = true;
 
     public MedianFinder() {
