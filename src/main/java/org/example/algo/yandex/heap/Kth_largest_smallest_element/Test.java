@@ -1,6 +1,7 @@
-package org.example.algo.yandex.heap.Kth_largest_element;
+package org.example.algo.yandex.heap.Kth_largest_smallest_element;
 
-import static org.example.algo.yandex.heap.Kth_largest_element.Solution.findKthLargest;
+import static org.example.algo.yandex.heap.Kth_largest_smallest_element.Solution.findKthLargest;
+import static org.example.algo.yandex.heap.Kth_largest_smallest_element.Solution.findKthSmallest;
 
 //215. Kth Largest Element in an Array
 //Given an integer array nums and an integer k, return the kth largest element in the array.
@@ -12,5 +13,6 @@ public class Test {
 
         int[] input = {3,2,3,1,2,6,4,5,5};
         System.out.println(findKthLargest(input, 4));
+        System.out.println(findKthSmallest(input, 4));
     }
 }
