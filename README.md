@@ -38,17 +38,12 @@ input array and use that information to place the elements in their correct sort
 than the number of elements
 12. https://almond-city-dee.notion.site/195f64241af0809bb6f9f76b85c328e1
     https://www.youtube.com/watch?v=6h-blOjL43s
-13. https://t.me/book_cube/3103![Screenshot 
-14. HEAP - Kth largest element; top K frequent element;
+14. HEAP (Priority Queue)- Kth largest element; top K frequent element;
 15. HashTable - Anagrams
 16. Sorting - use O(n2) only when you have O(1) place complexity
 17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.
 Recursively look at the left part, add them into the results. Recursively look at the left part, and go back to the Root.
 
-https://www.linkedin.com/feed/update/urn:li:activity:7294626255029600257/
-
-https://almond-city-dee.notion.site/195f64241af0809bb6f9f76b85c328e1
-
-
-
 https://www.linkedin.com/posts/ankitapy_dsa-leetcode-interview-activity-7298578598326677504-iL9e?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5CJqwBXQwpcP8dFhZwCWAJx3-8YrTh96I
+https://leetcode.com/discuss/post/449135/how-to-effectively-use-leetcode-to-prepa-m7gt/
+https://leetcode.com/discuss/post/494279/comprehensive-data-structure-and-algorit-tdez/
