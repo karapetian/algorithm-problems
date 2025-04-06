@@ -38,7 +38,12 @@ input array and use that information to place the elements in their correct sort
 than the number of elements
 12. https://almond-city-dee.notion.site/195f64241af0809bb6f9f76b85c328e1
     https://www.youtube.com/watch?v=6h-blOjL43s
-14. HEAP (Priority Queue)- Kth largest element; top K frequent element;
+13. HEAP (Priority Queue)- Kth largest element; top K frequent element. A heap is a special kind of binary tree.
+It's a complete binary tree (every level is completely filled except possibly the last, which is filled from left to right).
+In a min heap the parent node is always less than or equal to its children. The smallest element is at the root.
+In a max heap the parent node is always greater than or equal to its children. The largest element is at the root.
+For Insert add the new element at the end (last level, next open spot). Then "heapify up" to restore the heap property.
+For delete (usually the root) replace the root with the last element. Then "heapify down" to restore the heap property.
 15. HashTable - Anagrams
 16. Sorting - use O(n2) only when you have O(1) place complexity
 17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.
