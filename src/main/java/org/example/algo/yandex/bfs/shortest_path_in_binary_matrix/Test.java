@@ -1,6 +1,6 @@
-package org.example.algo.yandex.shortest_path_in_binary_matrix;
+package org.example.algo.yandex.bfs.shortest_path_in_binary_matrix;
 
-import static org.example.algo.yandex.shortest_path_in_binary_matrix.Solution.shortestPathBinaryMatrix;
+import static org.example.algo.yandex.bfs.shortest_path_in_binary_matrix.Solution.shortestPathBinaryMatrix;
 
 public class Test {
 

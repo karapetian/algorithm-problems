@@ -15,7 +15,7 @@ public class Test {
 
         TreeNode root = new TreeNode(1, null, new TreeNode(2));
         Solution solution = new Solution();
-        System.out.println(solution.kthSmallest(root, 2));
+        System.out.println(solution.kthSmallest(root1, 2));
 
     }
 }

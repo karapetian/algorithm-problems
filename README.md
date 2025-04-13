@@ -44,6 +44,7 @@ In a min heap the parent node is always less than or equal to its children. The 
 In a max heap the parent node is always greater than or equal to its children. The largest element is at the root.
 For Insert add the new element at the end (last level, next open spot). Then "heapify up" to restore the heap property.
 For delete (usually the root) replace the root with the last element. Then "heapify down" to restore the heap property.
+https://www.youtube.com/watch?v=VEYSSANa-cw
 15. HashTable - Anagrams
 16. Sorting - use O(n2) only when you have O(1) place complexity
 17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.

@@ -6,7 +6,7 @@ package org.example.algo.yandex.maximize_distance_to_closest_person;
 //Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized.
 //Return that maximum distance to the closest person.
 public class Solution {
-
+    //{1, 0, 0, 0, 1, 0, 1}
     static int maxDistToClosest(int[] seats) {
         int pointer = -1;
         int gap = 0;

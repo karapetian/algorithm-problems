@@ -1,4 +1,4 @@
-package org.example.algo.yandex.shortest_path_in_binary_matrix;
+package org.example.algo.yandex.bfs.shortest_path_in_binary_matrix;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -62,7 +62,7 @@ public class Solution {
             int nCol = col + directions[i][1];
             if (nRow < 0 || nCol < 0 ||
                     nRow>=grid[0].length || nCol>=grid.length ||
-                    grid[nRow][nCol] !=0) {
+                    grid[nRow][nCol] !=0) { //!!!
                 continue;
             }
             neighbours.add(new int[]{nRow, nCol});
