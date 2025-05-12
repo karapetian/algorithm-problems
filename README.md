@@ -49,6 +49,13 @@ https://www.youtube.com/watch?v=VEYSSANa-cw
 16. Sorting - use O(n2) only when you have O(1) place complexity
 17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.
 Recursively look at the left part, add them into the results. Recursively look at the left part, and go back to the Root.
+18. You have a large file (32 GB) where each line contains a single word. The machine has only 4 GB of operational memory (RAM).
+Sort the words in the file in ascending order.
+Solution: Split the 32 GB file into smaller chunks that fit into memory (e.g., 8 chunks of ~4 GB each).
+Read each chunk into memory, sort the words using an efficient algorithm (like quicksort or mergesort), and write the sorted words back to temporary files.
+Merge: Use a min-heap to merge the sorted chunks: Open all sorted chunk files. Initialize the heap with the first word from each file.
+Repeatedly extract the smallest word from the heap, write it to the final output, and replenish the heap with the next word from the corresponding file.
+Continue until all words from all chunks are processed.
 
 https://www.linkedin.com/posts/ankitapy_dsa-leetcode-interview-activity-7298578598326677504-iL9e?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5CJqwBXQwpcP8dFhZwCWAJx3-8YrTh96I
 https://leetcode.com/discuss/post/449135/how-to-effectively-use-leetcode-to-prepa-m7gt/
