@@ -1,6 +1,4 @@
-package org.example.algo.yandex.binarySearch;
-
-import static org.example.algo.yandex.binarySearch.Solution.search;
+package org.example.algo.yandex.binary_search.binarySearch;
 
 public class Test {
 
@@ -14,6 +12,6 @@ public class Test {
 
         int [] input = {2,5};
         int target = 5;
-        System.out.println(search(input, target));
+        System.out.println(Solution.search(input, target));
     }
 }

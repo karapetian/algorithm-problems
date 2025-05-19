@@ -1,6 +1,6 @@
-package org.example.algo.yandex.binarySearch_find_root_square;
+package org.example.algo.yandex.binary_search.binarySearch_find_root_square;
 
-import static org.example.algo.yandex.binarySearch_find_root_square.Solution.mySqrt;
+import static org.example.algo.yandex.binary_search.binarySearch_find_root_square.Solution.mySqrt;
 
 public class Test {
 

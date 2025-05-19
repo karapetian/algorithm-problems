@@ -1,4 +1,4 @@
-package org.example.algo.yandex.binarySearch_first_occurance;
+package org.example.algo.yandex.binary_search.binarySearch_first_occurance;
 
 //you have a sorted array find the First Occurrence of the target
 //поиск первого вхождения

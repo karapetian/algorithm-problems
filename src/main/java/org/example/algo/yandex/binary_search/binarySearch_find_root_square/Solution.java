@@ -1,4 +1,4 @@
-package org.example.algo.yandex.binarySearch_find_root_square;
+package org.example.algo.yandex.binary_search.binarySearch_find_root_square;
 
 //69. Sqrt(x)
 //Given a non-negative integer x, return the square root of x rounded down to

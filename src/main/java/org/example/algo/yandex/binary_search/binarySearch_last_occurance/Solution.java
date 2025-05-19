@@ -1,4 +1,4 @@
-package org.example.algo.yandex.binarySearch_last_occurance;
+package org.example.algo.yandex.binary_search.binarySearch_last_occurance;
 
 public class Solution {
 

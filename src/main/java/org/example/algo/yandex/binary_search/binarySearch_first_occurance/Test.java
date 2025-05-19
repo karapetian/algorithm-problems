@@ -1,6 +1,6 @@
-package org.example.algo.yandex.binarySearch_first_occurance;
+package org.example.algo.yandex.binary_search.binarySearch_first_occurance;
 
-import static org.example.algo.yandex.binarySearch_first_occurance.Solution.findFirstOccurence;
+import static org.example.algo.yandex.binary_search.binarySearch_first_occurance.Solution.findFirstOccurence;
 
 public class Test {
     public static void main(String[] args) {

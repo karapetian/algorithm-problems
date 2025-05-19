@@ -3,6 +3,8 @@ package org.example.algo.yandex.heap.sort_array;
 import java.util.PriorityQueue;
 
 //912. Sort an Array
+//You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and
+// with the smallest space complexity possible.
 public class Solution {
 
     //Space compl O(n)

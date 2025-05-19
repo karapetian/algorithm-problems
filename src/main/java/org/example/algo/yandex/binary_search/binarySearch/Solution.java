@@ -1,4 +1,4 @@
-package org.example.algo.yandex.binarySearch;
+package org.example.algo.yandex.binary_search.binarySearch;
 
 //704. Binary Search
 //return the index
