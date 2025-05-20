@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 //380. Insert Delete GetRandom O(1)
+//Miro
 public class RandomizedSet {
 
     //ArrayList get/delete - O(1) - by index add - O(1)/O(n)
