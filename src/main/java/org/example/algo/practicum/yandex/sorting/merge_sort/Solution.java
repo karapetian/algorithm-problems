@@ -1,4 +1,6 @@
-package org.example.algo.practicum.yandex.merge_sort;
+package org.example.algo.practicum.yandex.sorting.merge_sort;
+
+import java.util.Collections;
 
 //O(nlgn) in both the average and worst cases.
 //Devide - takes lgn complexity
@@ -22,6 +24,6 @@ public class Solution {
         int[] sub1 = mergeSort(input, startIdx, mid);
         int[] sub2 = mergeSort(input, mid + 1, endIdx);
 
-        return org.example.algo.practicum.yandex.merge_sorted_arrays.Solution.merge(sub1, sub2);
+        return org.example.algo.practicum.yandex.sorting.merge_sorted_arrays.Solution.merge(sub1, sub2);
     }
 }

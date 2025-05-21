@@ -1,4 +1,4 @@
-package org.example.algo.practicum.yandex.merge_sorted_arrays;
+package org.example.algo.practicum.yandex.sorting.merge_sorted_arrays;
 
 //Merge 2 Sorted Arrays
 // O(n+m)

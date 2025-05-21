@@ -1,4 +1,4 @@
-package org.example.algo.practicum.yandex.quick_sort;
+package org.example.algo.practicum.yandex.sorting.quick_sort;
 
 //O(n2) - worst case - when you always take the biggest/smallest as a pivot
 //O(n lgn) - best case- when we always take the average element as pivot. In this case the 2 partitions will have equal sizes.

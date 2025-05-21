@@ -1,4 +1,4 @@
-package org.example.algo.practicum.yandex.quick_sort;
+package org.example.algo.practicum.yandex.sorting.quick_sort;
 
 import java.util.Arrays;
 

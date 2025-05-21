@@ -1,4 +1,4 @@
-package org.example.algo.practicum.yandex.merge_sorted_arrays;
+package org.example.algo.practicum.yandex.sorting.merge_sorted_arrays;
 
 import java.util.Arrays;
 
