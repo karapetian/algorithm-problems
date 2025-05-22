@@ -2,6 +2,7 @@ package org.example.algo.yandex.array.house_robber;
 
 //198. House Robber
 //Miro
+//DP
 //https://www.youtube.com/watch?v=CCuHIYK04jE&t=171s
 public class Solution {
 

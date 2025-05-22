@@ -38,6 +38,7 @@ public class Solution {
         while (!queue.isEmpty()) {
             int[] firstCell = queue.poll();
 
+            //if we reached to the end
             if(firstCell[0] == grid[0].length-1 && firstCell[1]== grid.length-1) {
                 return grid[firstCell[0]][firstCell[1]];
             }
