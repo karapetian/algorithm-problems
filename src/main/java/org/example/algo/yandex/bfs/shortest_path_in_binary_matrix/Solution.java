@@ -2,6 +2,7 @@ package org.example.algo.yandex.bfs.shortest_path_in_binary_matrix;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
