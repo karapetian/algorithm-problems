@@ -1,5 +1,6 @@
 package org.example.algo.yandex.dynamic_programming.min_cost_climbing_stairs;
 
+//746. Min Cost Climbing Stairs
 public class Solution {
 
     //[10,15,20,6]
