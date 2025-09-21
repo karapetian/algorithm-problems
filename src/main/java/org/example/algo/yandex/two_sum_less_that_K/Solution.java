@@ -29,4 +29,28 @@ public class Solution {
 
         return max;
     }
+
+    static int solution(int[] input, int k) {
+        int length = input.length;
+        if (input.length < 2) {
+            return -1;
+        }
+
+        Arrays.sort(input); //nlgn
+
+        int leftIdx = 0;
+        int rightIdx = length-1;
+        int result = -1;
+        while (leftIdx<rightIdx) {  //n
+            int sum = input[leftIdx] + input[rightIdx];
+            if (sum < k) {
+                result =  Math.max(result, sum);
+                leftIdx ++;
+            } else  {
+                rightIdx -- ;
+            }
+
+        }
+        return result;
+    }
 }

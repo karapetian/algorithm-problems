@@ -6,7 +6,9 @@ public class Test {
 
     public static void main(String args[]) {
 
-        int cost[][] = {{1, 2, 3}, {4, 8, 2}, {1, 5, 3}};
+        int cost[][] = {{1, 2, 3},
+                        {4, 8, 2},
+                        {1, 5, 3}};
 
         System.out.print(minCost(cost, 2, 2));
     }

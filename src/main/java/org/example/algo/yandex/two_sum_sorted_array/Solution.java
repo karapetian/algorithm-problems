@@ -25,4 +25,24 @@ public class Solution {
         }
         return null;
     }
+
+    static int[] solution(int[] input, int target) {
+
+        int leftIdx = 0;
+        int rightIdx = input.length - 1;
+
+        while (leftIdx < rightIdx) {
+            int sum = input[leftIdx] + input[rightIdx];
+            if (sum == target) {
+                return new int[] {leftIdx+1, rightIdx+1};
+            }
+            if (sum > target) {
+                rightIdx -- ;
+            } else {
+                leftIdx ++;
+            }
+        }
+
+        return null;
+    }
 }

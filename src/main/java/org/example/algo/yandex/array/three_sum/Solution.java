@@ -11,7 +11,8 @@ public class Solution {
 
     //[-1,0,1,2,-1,-4]
     //[-4, -1, -1, 0, 1, 2]
-    // O(n^2) + O(ngln)
+    //Time: O(n^2) + O(ngln) - Sorting + Two Pointers (Optimal & Classic) approach
+    //Space: O(1)
     public static List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
             return List.of();
@@ -46,5 +47,9 @@ public class Solution {
         int[] input = {-1, 0, 1, -1};
 //        System.out.println(threeSum(input));
         System.out.println(threeSum(input));
+
+        List<Integer> list = List.of(1,2,3);
+        List<Integer> list2 = List.of(1,2,3);
+        System.out.println(list.equals(list2));
     }
 }

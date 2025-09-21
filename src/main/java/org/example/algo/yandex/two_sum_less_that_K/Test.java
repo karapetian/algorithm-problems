@@ -1,5 +1,6 @@
 package org.example.algo.yandex.two_sum_less_that_K;
 
+import static org.example.algo.yandex.two_sum_less_that_K.Solution.solution;
 import static org.example.algo.yandex.two_sum_less_that_K.Solution.twoSumLessThanK;
 
 public class Test {
@@ -10,6 +11,7 @@ public class Test {
         int target = 60;
 
         System.out.println(twoSumLessThanK(input, target));
+        System.out.println(solution(input, target));
 
     }
 }

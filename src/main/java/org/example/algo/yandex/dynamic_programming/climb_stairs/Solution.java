@@ -7,6 +7,7 @@ package org.example.algo.yandex.dynamic_programming.climb_stairs;
 //You were on step n - 2 and took 2 steps
 //The number of ways to get to step n - 1 is ways(n - 1)
 //The number of ways to get to step n - 2 is ways(n - 2)
+//So to get to the n-th, you need ways(n - 1) + ways(n - 2)
 //Add them together, and you get all the possible paths to reach step n
 public class Solution {
 
