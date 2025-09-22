@@ -1,4 +1,4 @@
-package org.example.algo.yandex.string_compression;
+package org.example.algo.yandex.strings.string_compression;
 
 //N443:String Compression
 public class Solution {

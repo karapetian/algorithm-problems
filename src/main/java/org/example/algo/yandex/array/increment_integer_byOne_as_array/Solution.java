@@ -35,6 +35,7 @@ public class Solution {
         return result;
     }
 
+    //Time and Space O(2n)
     public static int[] plusOne(int[] digits) {
         LinkedList<Integer> stack = new LinkedList<>();
         int carry = 1;
