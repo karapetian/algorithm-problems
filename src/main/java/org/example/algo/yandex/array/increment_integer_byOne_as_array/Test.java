@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args) {
 
 //        int[] input = {1,2,3};
-        int[] input = {9};
+        int[] input = {9, 9};
 
         System.out.println(Arrays.toString(plusOne(input)));
     }
