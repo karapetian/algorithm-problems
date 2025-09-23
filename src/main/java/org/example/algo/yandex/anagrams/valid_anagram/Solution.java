@@ -37,7 +37,7 @@ public class Solution {
 
         HashMap<Character, Integer> charCountMap = new HashMap<>();
         for (char c : s.toCharArray()) {
-            charCountMap.merge(c, 1, (oldVal, newVal) -> oldVal + 1);
+            charCountMap.merge(c, 1, (oldVal, newVal) -> oldVal + newVal);
         }
 
         for (char c : t.toCharArray()) {

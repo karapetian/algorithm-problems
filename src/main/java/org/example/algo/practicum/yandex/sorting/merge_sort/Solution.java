@@ -1,7 +1,5 @@
 package org.example.algo.practicum.yandex.sorting.merge_sort;
 
-import java.util.Collections;
-
 //O(nlgn) in both the average and worst cases.
 //Devide - takes lgn complexity
 //Concur - the merging of all sublists into a single list takes O(N) time, because

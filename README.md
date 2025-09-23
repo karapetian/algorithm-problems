@@ -61,3 +61,5 @@ Continue until all words from all chunks are processed.
 https://www.linkedin.com/posts/ankitapy_dsa-leetcode-interview-activity-7298578598326677504-iL9e?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC5CJqwBXQwpcP8dFhZwCWAJx3-8YrTh96I
 https://leetcode.com/discuss/post/449135/how-to-effectively-use-leetcode-to-prepa-m7gt/
 https://leetcode.com/discuss/post/494279/comprehensive-data-structure-and-algorit-tdez/
+
+19. int mid = startPos + (endPos - startPos) / 2;

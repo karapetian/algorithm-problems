@@ -9,7 +9,7 @@ import java.util.Random;
 //Miro
 public class RandomizedSet {
 
-    //ArrayList get/delete - O(1) - by index add - O(1)/O(n)
+    //ArrayList get/delete - O(1) by index; add - O(1)/O(n)
     //HasMap  (key-index; value-val) - get/delete/put O(1) to O(lgn)/O(n)
 
     //key-val; value-index
@@ -47,6 +47,7 @@ public class RandomizedSet {
 
         // Remove the last element
         values.remove(values.size() - 1);
+        // Remove 'val' element
         valIndexMap.remove(val);
 
         return true;

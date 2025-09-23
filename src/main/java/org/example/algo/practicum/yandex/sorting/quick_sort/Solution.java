@@ -12,7 +12,7 @@ public class Solution {
     //take the first element (current & wall). If it is smaller than the pivot, leave at its place
     //If it is bigger again leave it, as later you will swap it with the first (wall=input[0],  current=input[1])
     static int[] quickSort(int[] input, int startIdx, int endIdx) {
-        if (startIdx >= endIdx) {
+        if (startIdx >= endIdx) { // !!!
             // Base case: subarray has zero or one element
             return input;
         }
@@ -41,7 +41,7 @@ public class Solution {
 
 //good solution
     static int[] quickSort2(int[] input, int startIdx, int endIdx) {
-        if (startIdx >= endIdx) {
+        if (startIdx >= endIdx) { // !!!
             return input;
         }
         int pivot = input[endIdx];
