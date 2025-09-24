@@ -19,4 +19,19 @@ public class Solution {
         }
         return start;
     }
+
+    //not for big int; not good solution
+    static int mySqrt2(int x) {
+        int start = 0;
+        int end = x+1;
+        while(end-start>1) {
+            int mid = start + (end-start)/2;
+            if (mid*mid > x) {
+                end=mid;
+            } else {
+                start=mid;
+            }
+        }
+        return start;
+    }
 }
