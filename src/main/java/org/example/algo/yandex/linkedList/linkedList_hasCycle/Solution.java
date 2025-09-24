@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_hasCycle;
+package org.example.algo.yandex.linkedList.linkedList_hasCycle;
 
 //141. Linked List Cycle
 //Another approach. use hasSet. Travers through the LinkedLIst, check if Set contains the Node.

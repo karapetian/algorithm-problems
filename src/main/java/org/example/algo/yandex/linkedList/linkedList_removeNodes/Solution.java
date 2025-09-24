@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_removeNodes;
+package org.example.algo.yandex.linkedList.linkedList_removeNodes;
 
 import java.util.Stack;
 

@@ -1,6 +1,6 @@
-package org.example.algo.yandex.linkedList_delete_elements;
+package org.example.algo.yandex.linkedList.linkedList_delete_elements;
 
-import static org.example.algo.yandex.linkedList_delete_elements.Solution.removeElements;
+import static org.example.algo.yandex.linkedList.linkedList_delete_elements.Solution.removeElements;
 
 public class Test {
 

@@ -1,6 +1,6 @@
-package org.example.algo.yandex.linkedList_removeNodes;
+package org.example.algo.yandex.linkedList.linkedList_removeNodes;
 
-import static org.example.algo.yandex.linkedList_removeNodes.Solution.removeNodes;
+import static org.example.algo.yandex.linkedList.linkedList_removeNodes.Solution.removeNodes;
 
 public class Test {
 

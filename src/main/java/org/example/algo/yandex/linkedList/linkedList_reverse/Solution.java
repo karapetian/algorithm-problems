@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_reverse;
+package org.example.algo.yandex.linkedList.linkedList_reverse;
 
 //206. Reverse Linked List
 public class Solution {

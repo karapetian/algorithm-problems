@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_delete_elements;
+package org.example.algo.yandex.linkedList.linkedList_delete_elements;
 
 //203. Remove Linked List Elements
 public class Solution {

@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_delete_N_nodes_after_M_nodes;
+package org.example.algo.yandex.linkedList.linkedList_delete_N_nodes_after_M_nodes;
 
 //1474. Delete N Nodes After M Nodes of a Linked List
 //Keep repeating steps until you reach the end of the list.

@@ -1,6 +1,6 @@
-package org.example.algo.yandex.linkedList_intersection;
+package org.example.algo.yandex.linkedList.linkedList_intersection;
 
-import static org.example.algo.yandex.linkedList_intersection.Solution.getIntersectionNode;
+import static org.example.algo.yandex.linkedList.linkedList_intersection.Solution.getIntersectionNode;
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package org.example.algo.yandex.linkedList_intersection;
+package org.example.algo.yandex.linkedList.linkedList_intersection;
 
 //160. Intersection of Two Linked Lists
 //Given the heads of two singly linked-lists return the node at which the two lists intersect.
