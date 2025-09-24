@@ -5,7 +5,7 @@ package org.example.algo.yandex.linkedList.linkedList_hasCycle;
 //If yes, return true, if no, add the node to the set.
 public class Solution {
 
-    private static class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 
@@ -48,5 +48,22 @@ public class Solution {
         }
 
         return true;
+    }
+
+    static boolean hasCycle2(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
     }
 }
