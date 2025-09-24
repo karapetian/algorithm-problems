@@ -22,19 +22,19 @@ public class Solution {
             return 1;
         }
 
-        int [] startingHours = new int [intervals.length] ;
-        int [] endingHours = new int [intervals.length] ;
-        for (int i = 0; i < intervals.length; i++) {
+        int [] startingHours = new int [intervals.length] ; //Space: n
+        int [] endingHours = new int [intervals.length] ;  //Space: n
+        for (int i = 0; i < intervals.length; i++) { //Time: n
             startingHours[i] = intervals[i][0];
             endingHours[i] = intervals[i][1];
         }
 
-        Arrays.sort(startingHours);
-        Arrays.sort(endingHours);
+        Arrays.sort(startingHours); //Time: nlgn; Space: lgn
+        Arrays.sort(endingHours); //Time: nlgn; Space: lgn
 
         int roomCounter = 0;
         int endingHoursIndex = 0;
-        for (int i = 0; i < startingHours.length; i++) {
+        for (int i = 0; i < startingHours.length; i++) { //Time: n
             if(startingHours[i] < endingHours[endingHoursIndex]) {
                 roomCounter++;
             } else {
