@@ -1,6 +1,7 @@
 package org.example.algo.yandex.linkedList.linkedList_delete_elements;
 
 import static org.example.algo.yandex.linkedList.linkedList_delete_elements.Solution.removeElements;
+import static org.example.algo.yandex.linkedList.linkedList_delete_elements.Solution.removeElements2;
 
 public class Test {
 
@@ -13,12 +14,16 @@ public class Test {
                                         new Solution.ListNode(4,
                                                 new Solution.ListNode(5,
                                                         new Solution.ListNode(6)))))));
-        System.out.println(removeElements(head1, 6));
+//        System.out.println(removeElements(head1, 6));
+        System.out.println(removeElements2(head1, 6));
 
 
         Solution.ListNode head2 = new Solution.ListNode(7,
                 new Solution.ListNode(7,
                         new Solution.ListNode(7)));
 //        System.out.println(removeElements(head2, 7));
+        System.out.println(removeElements2(head2, 7));
+
+
     }
 }

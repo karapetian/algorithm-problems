@@ -51,4 +51,25 @@ public class Solution {
 
         return bubble.next;
     }
+
+    static ListNode removeElements2(ListNode head, int val) {
+        if (head == null) {
+            return null;
+        }
+        ListNode current = head;
+        ListNode dummy = new ListNode();
+        dummy.next=head;
+        ListNode prev = dummy;
+
+        while (current != null) {
+            if (current.val == val) {
+                prev.next = current.next;
+            } else {
+                prev = prev.next;
+            }
+            current = current.next;
+        }
+
+        return dummy.next;
+    }
 }

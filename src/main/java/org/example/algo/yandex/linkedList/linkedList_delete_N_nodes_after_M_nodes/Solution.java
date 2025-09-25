@@ -53,4 +53,33 @@ public class Solution {
 
         return head;
     }
+
+    static ListNode deleteNodes2(ListNode head, int m, int n) {
+        ListNode current = head;
+        ListNode prev = new ListNode();
+        prev.next = current;
+
+        int countM = m;
+        int countN = n;
+
+        while(current !=null) {
+            if(countM != 0) {
+                current = current.next;
+                prev = prev.next;
+                countM --;
+            }  else if ( countN!=0) {
+                //delete
+                current = current.next;
+                prev.next = current;
+                countN --;
+            }
+
+            if(countM==0 && countN==0) {
+                countM = m;
+                countN = n;
+            }
+        }
+
+        return head;
+    }
 }

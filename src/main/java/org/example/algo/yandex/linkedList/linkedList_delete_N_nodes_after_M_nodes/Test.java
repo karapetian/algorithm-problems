@@ -1,6 +1,7 @@
 package org.example.algo.yandex.linkedList.linkedList_delete_N_nodes_after_M_nodes;
 
 import static org.example.algo.yandex.linkedList.linkedList_delete_N_nodes_after_M_nodes.Solution.deleteNodes;
+import static org.example.algo.yandex.linkedList.linkedList_delete_N_nodes_after_M_nodes.Solution.deleteNodes2;
 
 //1474. Delete N Nodes After M Nodes of a Linked List
 public class Test {
@@ -38,5 +39,6 @@ public class Test {
 
 
         System.out.println(deleteNodes(head2, 2, 1));
+        System.out.println(deleteNodes2(head2, 2, 1));
     }
 }
