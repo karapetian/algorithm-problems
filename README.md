@@ -45,10 +45,13 @@ In a max heap the parent node is always greater than or equal to its children. T
 For Insert add the new element at the end (last level, next open spot). Then "heapify up" to restore the heap property.
 For delete (usually the root) replace the root with the last element. Then "heapify down" to restore the heap property.
 https://www.youtube.com/watch?v=VEYSSANa-cw
+Time Complexity - O(nlgn); Space - O(n)
 15. HashTable - Anagrams
 16. Sorting - use O(n2) only when you have O(1) place complexity
 17. BST (Binary Search Tree) - the right part nodes are bigger than the root, and the left nodes are smaller.
 Recursively look at the left part, add them into the results. Recursively look at the left part, and go back to the Root.
+Time Complexity - O(n); Space - O(h) (is not always h=lgn)
+https://www.youtube.com/watch?v=LwpLXm3eb6A
 https://www.youtube.com/watch?v=8K7EO7s_iFE
 18. You have a large file (32 GB) where each line contains a single word. The machine has only 4 GB of operational memory (RAM).
 Sort the words in the file in ascending order.
