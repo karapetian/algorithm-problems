@@ -2,13 +2,9 @@ package org.example.algo.adobe.longest_substring_without_repeat;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * For the given input string d find the longest substring(s) without any repeating characters.
