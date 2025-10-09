@@ -1,4 +1,4 @@
-package org.example.algo.adobe.prive_sum;
+package org.example.algo.adobe.prime_sum;
 
 //Write a function that accepts 2 non-negative integers n and m and returns the sum of
 //n-th and m-th prime numbers
